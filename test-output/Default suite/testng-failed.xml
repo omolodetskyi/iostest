@@ -5,7 +5,9 @@
     <classes>
       <class name="tests.ButtonTest">
         <methods>
-          <include name="buttonScreenIsOpened"/>
+          <include name="cleanUp"/>
+          <include name="alertScreenIsOpened"/>
+          <include name="initiateDriver"/>
         </methods>
       </class> <!-- tests.ButtonTest -->
     </classes>
