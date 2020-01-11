@@ -9,18 +9,16 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,347</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">18,187</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.ButtonTest</td><td><a href="#m0">alertScreenIsOpened</a></td><td rowspan="1">1577158595576</td><td rowspan="1">5127</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.ButtonTest</td><td><a href="#m1">buttonScreenIsOpened</a></td><td rowspan="1">1577158584812</td><td rowspan="1">10762</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.ScrollTest</td><td><a href="#m0">textTest</a></td><td rowspan="1">1578507348156</td><td rowspan="1">5928</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.ScrollTest</td><td><a href="#m1">scrollTest</a></td><td rowspan="1">1578507340127</td><td rowspan="1">8026</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">tests.ButtonTest#alertScreenIsOpened</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<h2>Default test</h2><h3 id="m0">tests.ScrollTest#textTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error Domain=com.facebook.WebDriverAgent Code=1 &quot;Only actions of &apos;pointer&apos; type are supported. &apos;key&apos; is given instead for action with id &apos;keyboard&apos;&quot; UserInfo={NSLocalizedDescription=Only actions of &apos;pointer&apos; type are supported. &apos;key&apos; is given instead for action with id &apos;keyboard&apos;}
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;Alexanders-MacBook-Pro.local&apos;, ip: &apos;192.168.1.58&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.1&apos;, java.version: &apos;1.8.0_131&apos;
+System info: host: &apos;Alexanders-MBP.Dlink&apos;, ip: &apos;192.168.0.75&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: io.appium.java_client.ios.IOSDriver
 Capabilities {automationName: XCUITest, browserName: , bundleId: com.example.apple-samplecod..., databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 13.3, takesScreenshot: true, udid: 894F484A-2BD6-4219-8EEB-E24..., webStorageEnabled: false}
-Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
-*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=&apos;Date Picker&apos;]}
+Session ID: 3a46c0f7-0e80-4809-92b1-21f8b5ef8f38
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -34,15 +32,9 @@ Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
-	at tests.ButtonTest.alertScreenIsOpened(ButtonTest.java:48)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteKeyboard.sendKeys(RemoteKeyboard.java:38)
+	at tests.ScrollTest.textTest(ScrollTest.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -69,6 +61,6 @@ Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.ButtonTest#buttonScreenIsOpened</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.ScrollTest#scrollTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

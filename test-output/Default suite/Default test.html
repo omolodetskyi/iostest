@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 24 05:36:21 EET 2019</td>
+<td>Started on:</td><td>Wed Jan 08 20:15:35 EET 2020</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21347 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18187 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.ButtonTest.alertScreenIsOpened()'><b>alertScreenIsOpened</b><br>Test class: tests.ButtonTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<td title='tests.ScrollTest.textTest()'><b>textTest</b><br>Test class: tests.ScrollTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error Domain=com.facebook.WebDriverAgent Code=1 &quot;Only actions of &apos;pointer&apos; type are supported. &apos;key&apos; is given instead for action with id &apos;keyboard&apos;&quot; UserInfo={NSLocalizedDescription=Only actions of &apos;pointer&apos; type are supported. &apos;key&apos; is given instead for action with id &apos;keyboard&apos;}
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;Alexanders-MacBook-Pro.local&apos;, ip: &apos;192.168.1.58&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.1&apos;, java.version: &apos;1.8.0_131&apos;
+System info: host: &apos;Alexanders-MBP.Dlink&apos;, ip: &apos;192.168.0.75&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: io.appium.java_client.ios.IOSDriver
 Capabilities {automationName: XCUITest, browserName: , bundleId: com.example.apple-samplecod..., databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 13.3, takesScreenshot: true, udid: 894F484A-2BD6-4219-8EEB-E24..., webStorageEnabled: false}
-Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
-*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=&apos;Date Picker&apos;]}
+Session ID: 3a46c0f7-0e80-4809-92b1-21f8b5ef8f38
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -97,15 +95,9 @@ Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
-	at tests.ButtonTest.alertScreenIsOpened(ButtonTest.java:48)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteKeyboard.sendKeys(RemoteKeyboard.java:38)
+	at tests.ScrollTest.textTest(ScrollTest.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,15 +123,13 @@ Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1515877023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1515877023'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+</pre></div><a href='#' onClick='toggleBox("stack-trace1758624236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1758624236'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error Domain=com.facebook.WebDriverAgent Code=1 &quot;Only actions of &apos;pointer&apos; type are supported. &apos;key&apos; is given instead for action with id &apos;keyboard&apos;&quot; UserInfo={NSLocalizedDescription=Only actions of &apos;pointer&apos; type are supported. &apos;key&apos; is given instead for action with id &apos;keyboard&apos;}
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;Alexanders-MacBook-Pro.local&apos;, ip: &apos;192.168.1.58&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.1&apos;, java.version: &apos;1.8.0_131&apos;
+System info: host: &apos;Alexanders-MBP.Dlink&apos;, ip: &apos;192.168.0.75&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: io.appium.java_client.ios.IOSDriver
 Capabilities {automationName: XCUITest, browserName: , bundleId: com.example.apple-samplecod..., databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 13.3, takesScreenshot: true, udid: 894F484A-2BD6-4219-8EEB-E24..., webStorageEnabled: false}
-Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
-*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=&apos;Date Picker&apos;]}
+Session ID: 3a46c0f7-0e80-4809-92b1-21f8b5ef8f38
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -153,15 +143,9 @@ Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
-	at tests.ButtonTest.alertScreenIsOpened(ButtonTest.java:48)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteKeyboard.sendKeys(RemoteKeyboard.java:38)
+	at tests.ScrollTest.textTest(ScrollTest.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -189,7 +173,7 @@ Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>5</td>
-<td>tests.ButtonTest@6e1567f1</td></tr>
+<td>tests.ScrollTest@13805618</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -199,10 +183,10 @@ Session ID: 3fa1d7b9-e25f-431c-b8ea-1525ad08d0a4
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.ButtonTest.buttonScreenIsOpened()'><b>buttonScreenIsOpened</b><br>Test class: tests.ButtonTest</td>
+<td title='tests.ScrollTest.scrollTest()'><b>scrollTest</b><br>Test class: tests.ScrollTest</td>
 <td></td>
-<td>10</td>
-<td>tests.ButtonTest@6e1567f1</td></tr>
+<td>8</td>
+<td>tests.ScrollTest@13805618</td></tr>
 </table><p>
 </body>
 </html>
