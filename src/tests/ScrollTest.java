@@ -34,7 +34,6 @@ public class ScrollTest extends TestBase{
 		 js.executeScript("mobile: scroll", parameters);
 		 String expectedLabel="Text Fields";
 		 String actualLabel=mainScreen.TextFieldsMenuItem.getAttribute("label");
-		 //String actualLabel=driver.findElementByAccessibilityId("Text Fields").getAttribute("label");
 		 Assert.assertEquals(actualLabel, expectedLabel);
 	 }
 	 @Test(priority=2, dependsOnMethods="scrollTest")

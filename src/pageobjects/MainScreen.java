@@ -17,5 +17,15 @@ public class MainScreen {
 	public MobileElement DatePickerMenuItem;
 	@iOSXCUITFindBy(accessibility="Text Fields")
 	public MobileElement TextFieldsMenuItem;
-
+	@iOSXCUITFindBy(accessibility="Action Sheets")
+	public MobileElement ActionSheetsMenuItem;
+	@iOSXCUITFindBy(accessibility="Alert Views")
+	public MobileElement AlertViewsMenuItem;
+	@iOSXCUITFindBy(accessibility="Sliders")
+	public MobileElement SlidersMenuItem;
+	@iOSXCUITFindBy(accessibility="Steppers")
+	public MobileElement SteppersMenuItem;
+	@iOSXCUITFindBy(accessibility="Switches")
+	public MobileElement SwitchesMenuItem;
+	
 }
